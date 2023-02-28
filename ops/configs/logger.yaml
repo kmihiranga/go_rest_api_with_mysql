@@ -1,0 +1,13 @@
+level: info
+development: false
+disableCaller: false
+disableStacktrace: false
+encoding: console
+outputPaths: ["stdout", "logs/bc-service.log"]
+encoderConfig:
+  messageKey: "message"
+  levelKey: "level"
+  levelEncoder: "lowercase"
+  timeKey: "time"
+  # levelEncoder: "capital"
+  timeEncoder: "ISO8601"

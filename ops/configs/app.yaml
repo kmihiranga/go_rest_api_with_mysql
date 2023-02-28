@@ -1,0 +1,9 @@
+name: go-rest-api-with-mysql
+host: 127.0.0.1
+port: 8080
+read-timeout: 30000
+write-timeout: 30000
+shutdown-wait-time: 20000
+# Set the public https URL of the hosted/deployed environment
+base-url: <HTTPS-BASE-URL>
+enc-key: <ENCRYPTION-KEY>
